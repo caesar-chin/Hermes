@@ -1,0 +1,66 @@
+.headerImg
+{
+	background-image: url(../images/servicesIMG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.28);
+	background-blend-mode: overlay;
+	height: 650px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.moto
+{
+	color: #ffc145;
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+.service
+{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 70px;
+
+}
+
+.single-service
+{
+	text-align: left;
+	padding: 40px;
+	margin-bottom: 30px; 
+	box-shadow: 0px 0px 20px #f1f1f1;
+}
+
+.single-service i
+{
+	font-size: 40px;
+	color: #ffc145;
+	margin-bottom: 10px;
+}
+
+.single-service h3
+{
+	font-size: 24px;
+	font-weight: 700; 
+	margin-bottom: 10px;
+
+}
+
+.single-service p
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: #777;
+}
+
+.single-service:hover
+{
+	box-shadow: 0px 30px 50px 0px rgba(0,0,29,0.1);
+	transform: translateY(-5px);
+}
